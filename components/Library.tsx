@@ -14,7 +14,6 @@ const Library = () => {
           <TbPlaylist className="text-neutral-400" />
           <p className="text-neutral-400 font-medium text-base">Your Library</p>
         </div>
-        <div>Made progress in master</div>
       </div>
     </div>
   );
