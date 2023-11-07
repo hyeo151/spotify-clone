@@ -13,6 +13,7 @@ const Library = () => {
         <div className="inline-flex items-center gap-x-2">
           <TbPlaylist className="text-neutral-400" />
           <p className="text-neutral-400 font-medium text-base">Your Library</p>
+          <div>Made some progress</div>
         </div>
       </div>
     </div>
