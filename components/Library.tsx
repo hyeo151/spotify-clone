@@ -1,7 +1,7 @@
 "use client";
 
 import { TbPlaylist } from "react-icons/tb";
-// import { AioutlinePlus } from "react-icons/ai";
+import { AiOutlinePlus } from "react-icons/ai";
 
 const Library = () => {
   const onClick = () => {
@@ -13,8 +13,12 @@ const Library = () => {
         <div className="inline-flex items-center gap-x-2">
           <TbPlaylist className="text-neutral-400" />
           <p className="text-neutral-400 font-medium text-base">Your Library</p>
-          <div>Made some progress</div>
         </div>
+        <AiOutlinePlus
+          onClick={onClick}
+          size={20}
+          className="text-neutral-400 cursor-pointer hover:text-white transition"
+        />
       </div>
     </div>
   );
