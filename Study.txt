@@ -1,0 +1,10 @@
+//Study list
+
+1. Study useMemo Hook
+2. what does usePathname() from "next/navigation" do ?
+3. interface typescript
+4. className?: string;
+
+//Library list
+1. react-icons
+2. tailwind-merge
