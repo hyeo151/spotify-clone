@@ -30,7 +30,7 @@ export interface Product {
 
 export interface Price {
   id: string;
-  product?: string;
+  product_id?: string;
   active?: boolean;
   description?: string;
   unit_amount?: number;
@@ -42,7 +42,6 @@ export interface Price {
   metadata?: Stripe.Metadata;
   products?: Product;
 }
-
 export interface Subscription {
   id: string;
   user_id: string;
